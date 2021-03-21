@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #00b09b;
+  background: -webkit-linear-gradient(to left, #96c93d, #00b09b);
+  background: linear-gradient(to left, #96c93d, #00b09b);
+  height: 100vh;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  left: 40%;
+  width: 250px;
+  height: 400px;
+  background-color: rgba(73, 34, 22, 0.3);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: seashell;
+}
+
+h1 {
+  color: seashell;
+  text-align: center;
+}
